@@ -49,7 +49,7 @@ export default async function handler(req, res) {
 
     console.log('Similarity:', similarity + '%');
 
-    const THRESHOLD = 70;
+    const THRESHOLD = 85;
 
     if (similarity >= THRESHOLD) {
       res.status(200).json({
