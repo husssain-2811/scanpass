@@ -1,0 +1,19 @@
+# .gitignore
+# Ye file batati hai ke konsi files GitHub pe NAHI jayengi
+
+# Node modules (bohot bhari folder - upload nahi karna)
+node_modules/
+
+# Environment variables (SECRET hai - upload nahi karna)
+.env.local
+.env
+
+# Next.js build files
+.next/
+
+# Debug logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
